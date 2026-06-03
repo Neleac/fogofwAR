@@ -1,0 +1,10 @@
+{
+  "name": "fogofwar-display-map",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node src/server.js",
+    "build": "node src/scripts/build-static.js"
+  }
+}

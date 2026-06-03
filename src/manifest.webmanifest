@@ -1,0 +1,15 @@
+{
+  "name": "fogofwAR Map",
+  "short_name": "fogofwAR",
+  "description": "A full-screen Meta Ray-Ban Display map with live location.",
+  "icons": [
+    {
+      "src": "favicon.png?v=favicon-20260603",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone"
+}
