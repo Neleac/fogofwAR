@@ -72,6 +72,19 @@ body {
   background: rgba(255, 255, 255, 0.72);
 }
 
+.leaflet-fog-pane,
+.fog-canvas {
+  pointer-events: none;
+}
+
+.fog-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
 .zoom-slider {
   position: absolute;
   z-index: 2000;

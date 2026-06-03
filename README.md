@@ -3,6 +3,8 @@
 Meta Ray-Ban Display web app: a full-screen live location map with a minimal on-map zoom slider.
 
 - D-pad / arrow keys pan the map.
+- A solid grey fog covers unrevealed land areas while water stays clear using a low-detail land mask.
+- Your live location clears a 400-foot radius circle, and revealed areas persist locally as you walk.
 - The live location marker shows facing direction when orientation data is available.
 - GPS position is tracked continuously while the app is visible.
 - On glasses, pinch/select recenters on the latest GPS fix.
